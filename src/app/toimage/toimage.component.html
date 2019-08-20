@@ -1,0 +1,12 @@
+
+<br/> 
+
+<h2> Image to PDF</h2>
+<br/>
+<h4> Choose png/jpg image file.</h4>
+&nbsp;
+<input type="file" name="image" (change)="onFileChanged($event)">   
+<div class="info" *ngIf="filePreview">  <br/>
+ <img [src]="sanitize(filePreview)"  style="display: flex"/>   
+</div>  
+

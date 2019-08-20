@@ -1,0 +1,27 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: yellow;
+  }
+
+  table th {
+    background-color: black;
+    color: white;
+  }
+  
+  
+.data{
+
+color: red;
+border: 2px solid yellow;
+padding :4px;
+
+}
